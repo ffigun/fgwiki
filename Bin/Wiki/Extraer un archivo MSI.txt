@@ -1,0 +1,4 @@
+Ejecutar una consola de comandos elevada y usar el comando:
+msiexec /a ORIGEN /qb TARGETDIR=DESTINO
+
+Reemplazar las rutas absolutas ORIGEN y DESTINO.

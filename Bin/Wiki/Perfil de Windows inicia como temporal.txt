@@ -1,0 +1,13 @@
+Si el usuario normalmente usa el equipo y una vez que reinicio carga un perfil movil:
+1. Verificar que pueda resolver el nombre del servidor
+2. Verificar que su DNS sea exclusivamente el del servidor de dominio.
+
+Reiniciar y ver si levanta normalmente. NO alcanza con cerrar sesión.
+
+En caso que alguna vez haya iniciado sesion en el equipo y la copia local ya no este, es posible que windows use un perfil temporal.
+En ese caso, buscar la carpeta del usuario en esta ruta de regedit y modificar la clave ProfileImagePath por el SID del usuario:
+HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList
+
+Reiniciar y ver si levanta normalmente.
+
+Más información en https://docs.microsoft.com/en-us/troubleshoot/windows-client/user-profiles-and-logon/renaming-user-account-not-change-profile-path.

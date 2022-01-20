@@ -1,0 +1,46 @@
+* Usar un punto para separar el nombre de archivo de su extensión.
+
+* Usar una contrabarra para separar los componentes de una ruta.
+
+* No asumir sensibilidad a mayúsculas y minúsculas.
+
+* Usar cualquier caracter Unicode y Unicode extendido, salvo:
+- Caracteres reservados:
+	<
+	>
+	:
+	"
+	/
+	\
+	|
+	?
+	*
+- Valor entero cero (caracter ASCII NUL).
+- Valores enteros entre 1 y 31.
+- Valores no admitidos por el sistema de archivos de destino.
+- Para Windows, no usar los nombres reservados:
+	CON
+	PRN
+	AUX
+	NUL
+	COM1
+	COM2
+	COM3
+	COM4
+	COM5
+	COM6
+	COM7
+	COM8
+	COM9
+	LPT1
+	LPT2
+	LPT3
+	LPT4
+	LPT5
+	LPT6
+	LPT7
+	LPT8
+	LPT9
+
+- No usar los nombres reservados ni siquiera con extensión, por ejemplo, CON.txt.
+- No terminar los nombres de archivos y carpetas con espacios o puntos.

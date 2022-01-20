@@ -1,0 +1,5 @@
+Eliminar el icono de Outlook 2000 desde explorer, causa que al actualizar el escritorio vuelva a aparecer. Para eliminarlo definitivamente, borrar la clave de registro:
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{00020D75-0000-0000-C000-000000000046}]
+
+Después actualizar el escritorio (F5, o clic derecho > Actualizar).

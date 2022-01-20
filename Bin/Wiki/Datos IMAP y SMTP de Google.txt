@@ -1,0 +1,32 @@
+Datos de configuración IMAP y SMTP de Google
+
+Es posible que se deba cambiar la configuración de la cuenta para permitir el acceso de Apps menos seguras (https://support.google.com/accounts/answer/6010255).
+
+SMTP
+----
+Límite: 2000 mensajes / día
+
+Servidor: smtp.gmail.com
+
+Requiere autenticación: Sí, SSL o TLS si está disponible
+
+Puerto: 465 para SSL
+        587 para TLS/STARTTLS
+
+Nombre de usuario: Cuenta de Google (Gmail o Workspace)
+
+Contraseña: Contraseña de Google (Gmail o Workspace)
+
+IMAP
+----
+Configurar en Gmail la opción Habilitar IMAP" en Reenvío y correo POP/IMAP > Acceso IMAP
+
+Servidor: imap.gmail.com
+
+Requiere autenticación: Sí, SSL
+
+Puerto: 993
+
+Nombre de usuario: Cuenta de Google (Gmail o Workspace)
+
+Contraseña: Contraseña de Google (Gmail o Workspace)

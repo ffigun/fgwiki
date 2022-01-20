@@ -1,0 +1,6 @@
+Get-NetConnectionProfile
+Set-NetConnectionProfile -InterfaceIndex <index number> -NetworkCategory <category>
+
+Donde:
+<index number> es el índice tomado del perfil del primer comando.
+<category> puede ser Public o Private.

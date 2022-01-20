@@ -1,0 +1,13 @@
+Para configurar una cuenta de Gmail en Outlook seguir estos pasos:
+
+1. Seleccione Archivo > Agregar cuenta.
+
+2. Escriba su dirección de correo electrónico y haga clic en Conectar.
+
+3. Outlook iniciará una ventana de Gmail que le pedirá la contraseña. Escriba la contraseña y seleccione Iniciar sesión.
+
+4. Si ha habilitado previamente la autenticación en dos fases para Gmail, se le pedirá que escriba el código enviado a su dispositivo móvil. Si no ha habilitado la autenticación en dos fases, vaya al paso 6.
+
+5. Aparecerá la ventana de permisos de la cuenta de Google. Haga clic en Permitir.
+
+6. Cuando Outlook su cuenta de Gmail, puede agregar otra cuenta de correo electrónico o seleccionar Listo.

@@ -1,0 +1,5 @@
+En la clave de registro:
+HKEY_CLASSES_ROOT\MIME\Database\Content Type\image/jpeg
+
+Cambiar la extensión de .jfif a .jpg
+

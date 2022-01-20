@@ -1,0 +1,7 @@
+HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Default
+> Borrar cada MRU
+
+HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Servers
+> Borrar las Keys necesarias
+
+Borrar el archivo default.rdp que está en la carpeta Documentos del perfil con del /ah.

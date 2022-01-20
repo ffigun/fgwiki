@@ -1,0 +1,5 @@
+1) Con Microsoft Outlook cerrado, Acceder a Panel de Control > Mail (o Correo, depende del idioma de Office)
+
+2) Acceder al menú de Archivos de Datos y luego hacer doble clic al PST correspondiente.
+
+3) Buscar en el menú la función Compactar ahora. El proceso puede tardar desde algunos minutos algunas horas, dependiendo de la velocidad del disco, el tamaño del archivo y el volumen de espacio desperdiciado en el PST.

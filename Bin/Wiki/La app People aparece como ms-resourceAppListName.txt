@@ -1,0 +1,5 @@
+Desinstalar la app People mediante una consola de PowerShell elevada:
+get-appxpackage *microsoft.people* | remove-appxpackage
+
+Instalar en la misma consola (si se quiere usar la app):
+Get-AppXPackage *microsoft.people* -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}

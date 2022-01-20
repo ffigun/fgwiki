@@ -1,0 +1,20 @@
+En una ventana de PowerShell elevada usar estos comandos:
+
+$LanguageList = Get-WinUserLanguageList
+$LanguageList.Add("qaa-latn")
+Set-WinUserLanguageList $LanguageList -Force
+
+En configuración (Windows + I) quitar el idioma "qaa-Latn"
+
+Opción B:
+Probar el comando con es-ES o es-MX:
+Set-WinUserLanguageList es-ES -Force
+
+Opción C:
+En una ventana de PowerShell elevada usar estos comandos. Cambiar el "es-MX" por el LanguageTag correspondiente que se obtiene del primer comando:
+
+Get-WinUserLanguageList
+$LanguageList = Get-WinUserLanguageList
+$Language = $LanguageList | where LanguageTag -eq "es-MX"
+$LanguageList.Remove($Language)
+Set-WinUserLanguageList $LanguageList -Force
